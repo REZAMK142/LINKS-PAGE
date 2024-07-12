@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.white {
+    background-color: white;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin-top: 5%;
+    margin-left: 32%;
+    background-color: azure;
+    border: 2px dashed gray;
+}
+
+.center {
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 2%;
+}
+
+/* .profile {
+    border: 5px solid black;
+    border-radius: 5px;
+} */
+
+.profile {
+    height: 150px;
+    width: 150px;
+    margin-left: 33%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.footer {
+    display: inline-block;
+    position: absolute;
+    background-color: rgb(128, 136, 136);
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    width: 30%;
+    height: 5%;
+    padding: 5px 10px 10px 5px;
+}
+
+.footer a {
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20%;
+    color: black;
+}
+
+.icon-insta {
+    background: #963e83;
+    color: white;
+    border-radius: 5px;
+}
+.icon-telegram {
+    background: #0199f7;
+    color: white;
+    border-radius: 50%;
+}
+.padding {
+    padding: 5px;
+}
+
+.icon-github{
+    background: #000000;
+    color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.padding-bottom {
+    padding-bottom: 5px;
+}
+.color-gray{
+    color: gray;
+}
+.icon-telegram :hover {
+    border-bottom: 2px solid blue;
+}
+
